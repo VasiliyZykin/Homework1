@@ -79,6 +79,7 @@ body {
   text-align: left;
   color: #FFFFFF;
   padding: 32px;
+  text-decoration: none;
 }
 .games__item-box__item_a {
   display: flex;
@@ -90,6 +91,7 @@ body {
   height: 300px;
   border-radius: 16px;
   grid-column: span 4;
+  text-decoration: none;
 }
 .games__item-box__item_b {
   display: flex;
@@ -101,6 +103,7 @@ body {
   height: 300px;
   border-radius: 16px;
   grid-column: span 4;
+  text-decoration: none;
 }
 .games__item-box__item_c {
   display: flex;
@@ -112,4 +115,5 @@ body {
   height: 300px;
   border-radius: 16px;
   grid-column: span 4;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
