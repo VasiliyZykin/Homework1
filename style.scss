@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.center {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.main {
+    height: 1024px;
+    background-image: url(img/backgroundimgmain.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &__title {
+        padding-top: 217px;
+        padding-bottom: 32px;
+        width: 788px;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 78px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        width: 481px;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #FFFFFF;
+        padding-bottom: 44px;
+    }
+
+    &__text_big {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+    &__button {
+        width: 234px;
+        height: 48px;
+        border-radius: 30px;
+        background-color: #9C0332;
+        border: none;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        box-sizing: border-box;
+        text-align: center;
+    }
+}
+
+.games__item-box {
+    background-color: #000915;
+    height: 556px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 32px;
+    align-content: center;
+
+    &__text {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #FFFFFF;
+        padding: 32px;
+        text-decoration: none;
+    }
+
+    &__item_a {
+        display: flex;
+        align-items: flex-end;
+        background-image: url(img/bkggame1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+        border-radius: 16px;
+        grid-column: span 4;
+        text-decoration: none;
+
+    }
+
+    &__item_b {
+        display: flex;
+        align-items: flex-end;
+        background-image: url(img/bkggame2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+        border-radius: 16px;
+        grid-column: span 4;
+        text-decoration: none;
+
+    }
+
+    &__item_c {
+        display: flex;
+        align-items: flex-end;
+        background-image: url(img/bkggame3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+        border-radius: 16px;
+        grid-column: span 4;
+        text-decoration: none;
+
+    }
+}
