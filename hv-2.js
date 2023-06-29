@@ -33,7 +33,7 @@ alert(numA / numB);
 
 // Задание 5
 
-result = 2 ** 5
+let result = 2 ** 5
 
 alert(result);
 
