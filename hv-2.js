@@ -89,7 +89,7 @@ console.log(user[info]);
 
 alert(user);
 
-// Задание 10
+// Задание 10.
 
 let userName = prompt("Ваше имя");
 
