@@ -1,6 +1,6 @@
 // Задание 1
 
-a = 10
+let a = 10
 
 alert(a);
 
@@ -10,21 +10,21 @@ alert(a);
 
 // Задание 2
 
-iphoneBirth = 2007
+const iphoneBirth = 2007
 
 alert(iphoneBirth);
 
 // Задание 3
 
-creatorJs = 'Брендан Эйх'
+const creatorJs = 'Брендан Эйх'
 
 alert(creatorJs);
 
 // Задание 4
 
-numA = 10
+let numA = 10
 
-numB = 2
+let numB = 2
 
 alert(numA + numB);
 alert(numA - numB);
@@ -39,11 +39,11 @@ alert(result);
 
 // Задание 6
 
-a = 9
+let c = 9
 
-b = 2
+let b = 2
 
-alert(a % b);
+alert(c % b);
 
 // Задание 7
 
