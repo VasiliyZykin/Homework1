@@ -1,0 +1,60 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .main {
+        height: 735px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+
+        &__title {
+            font-family: Montserrat;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 39px;
+            letter-spacing: 0px;
+            text-align: center;
+            padding-top: 0px;
+        }
+
+        &__text {
+            font-family: Montserrat;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            letter-spacing: 0px;
+            text-align: center;
+        }
+
+        &__text_big {
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 22px;
+            letter-spacing: 0px;
+            text-align: center;
+        }
+
+    }
+
+    .games__item-box {
+        height: 1221px;
+
+        &__item_a {
+            grid-column: span 12;
+        }
+
+        &__item_b {
+            grid-column: span 12;
+        }
+
+        &__item_c {
+            grid-column: span 12;
+        }
+    }
+}
