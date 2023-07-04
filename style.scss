@@ -64,6 +64,11 @@ body {
         color: #FFFFFF;
         box-sizing: border-box;
         text-align: center;
+
+        &:hover {
+            background-color: #EB443F;
+            transition: all 0.3s;
+        }
     }
 }
 
@@ -98,6 +103,12 @@ body {
         grid-column: span 4;
         text-decoration: none;
 
+        &:hover {
+            box-sizing: border-box;
+            transition: all 0.1s;
+            border: 3px solid #44D2FF;
+        }
+
     }
 
     &__item_b {
@@ -111,6 +122,12 @@ body {
         border-radius: 16px;
         grid-column: span 4;
         text-decoration: none;
+
+        &:hover {
+            box-sizing: border-box;
+            transition: all 0.1s;
+            border: 3px solid #44D2FF;
+        }
 
     }
 
@@ -126,5 +143,13 @@ body {
         grid-column: span 4;
         text-decoration: none;
 
+        &:hover {
+            box-sizing: border-box;
+            transition: all 0.1s;
+            border: 3px solid #44D2FF;
+        }
+
     }
 }
+
+@import'mobile';

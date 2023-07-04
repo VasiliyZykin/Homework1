@@ -62,6 +62,10 @@ body {
   box-sizing: border-box;
   text-align: center;
 }
+.main__button:hover {
+  background-color: #EB443F;
+  transition: all 0.3s;
+}
 
 .games__item-box {
   background-color: #000915;
@@ -93,6 +97,11 @@ body {
   grid-column: span 4;
   text-decoration: none;
 }
+.games__item-box__item_a:hover {
+  box-sizing: border-box;
+  transition: all 0.1s;
+  border: 3px solid #44D2FF;
+}
 .games__item-box__item_b {
   display: flex;
   align-items: flex-end;
@@ -105,6 +114,11 @@ body {
   grid-column: span 4;
   text-decoration: none;
 }
+.games__item-box__item_b:hover {
+  box-sizing: border-box;
+  transition: all 0.1s;
+  border: 3px solid #44D2FF;
+}
 .games__item-box__item_c {
   display: flex;
   align-items: flex-end;
@@ -116,4 +130,61 @@ body {
   border-radius: 16px;
   grid-column: span 4;
   text-decoration: none;
+}
+.games__item-box__item_c:hover {
+  box-sizing: border-box;
+  transition: all 0.1s;
+  border: 3px solid #44D2FF;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .main {
+    height: 735px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  .main__title {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 0px;
+  }
+  .main__text {
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .main__text_big {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .games__item-box {
+    height: 1221px;
+  }
+  .games__item-box__item_a {
+    grid-column: span 12;
+  }
+  .games__item-box__item_b {
+    grid-column: span 12;
+  }
+  .games__item-box__item_c {
+    grid-column: span 12;
+  }
 }/*# sourceMappingURL=style.css.map */
