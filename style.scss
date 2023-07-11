@@ -152,4 +152,69 @@ body {
     }
 }
 
+.vremenaGoda {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    height: 800px;
+    background-color: #000915;
+
+    &__info {
+
+        width: 585px;
+        height: 236px;
+
+        &__title {
+
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 59px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #FFFFFF;
+            padding-bottom: 32px;
+        }
+
+        &__text {
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 32px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #FFFFFF;
+            padding-bottom: 32px;
+        }
+
+        &__button {
+            width: 234px;
+            height: 48px;
+            border-radius: 30px;
+            background-color: #9C0332;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0px;
+            text-align: center;
+            color: #FFFFFF;
+            box-sizing: border-box;
+            padding-left: 75px;
+            padding-right: 75px;
+            border: none;
+
+            &:hover {
+                background-color: #EB443F;
+                transition: all 0.3s;
+            }
+
+        }
+    }
+
+    &__img {
+        background-image: url(./img/game_1_img.svg);
+        width: 485px;
+        height: 333px;
+    }
+}
+
 @import'mobile';
