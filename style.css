@@ -137,6 +137,62 @@ body {
   border: 3px solid #44D2FF;
 }
 
+.vremenaGoda {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  height: 800px;
+  background-color: #000915;
+}
+.vremenaGoda__info {
+  width: 585px;
+  height: 236px;
+}
+.vremenaGoda__info__title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+  padding-bottom: 32px;
+}
+.vremenaGoda__info__text {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+  padding-bottom: 32px;
+}
+.vremenaGoda__info__button {
+  width: 234px;
+  height: 48px;
+  border-radius: 30px;
+  background-color: #9C0332;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  padding-left: 75px;
+  padding-right: 75px;
+  border: none;
+}
+.vremenaGoda__info__button:hover {
+  background-color: #EB443F;
+  transition: all 0.3s;
+}
+.vremenaGoda__img {
+  background-image: url(./img/game_1_img.svg);
+  width: 485px;
+  height: 333px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -186,5 +242,43 @@ body {
   }
   .games__item-box__item_c {
     grid-column: span 12;
+  }
+  .vremenaGoda {
+    gap: 64px;
+    height: 653px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .vremenaGoda__info {
+    width: 343px;
+    height: 217px;
+    grid-column: span 12;
+    display: grid;
+    justify-items: center;
+  }
+  .vremenaGoda__info__title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .vremenaGoda__info__text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .vremenaGoda__info__button {
+    width: 234px;
+    height: 48px;
+    text-align: center;
+  }
+  .vremenaGoda__img {
+    grid-column: span 12;
+    height: 236px;
+    width: 344px;
+    background-image: url(./img/game_1_mobimg.svg);
   }
 }/*# sourceMappingURL=style.css.map */
