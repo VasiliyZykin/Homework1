@@ -5,26 +5,26 @@ function monthNumberGame() {
         case '12':
         case '1':
         case '2':
-            console.log('зима');
+            alert('зима');
             break;
         case '3':
         case '4':
         case '5':
-            console.log('весна');
+            alert('весна');
             break;
         case '6':
         case '7':
         case '8':
-            console.log('лето');
+            alert('лето');
             break;
         case '9':
         case '10':
         case '11':
-            console.log('осень');
+            alert('осень');
             break;
 
         default:
-            console.log('такого месяца не бывает')
+            alert('такого месяца не бывает')
             break;
     }
 }
