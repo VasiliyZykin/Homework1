@@ -20,14 +20,17 @@ const array = [1, 3, 5, 10, 20];
 console.log(array.join(' '));
 
 // Задание 4
+let massAr = [];
 
-const mass = [
-    [1, 1, 1],
-    [1, 1, 1],
-    [1, 1, 1],
-]
+for (let i = 0; i < 3; i++) {
+    massAr[i] = [];
 
-console.log(mass);
+    for (let j = 0; j < 3; j++) {
+        massAr[i].push(1);
+    }
+}
+
+console.log(massAr);
 
 // Задание 5
 
