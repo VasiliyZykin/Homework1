@@ -20,17 +20,17 @@
         <button class="main__button">Поехали!</button>
     </main>
     <section class="games__item-box center">
-        <a class="games__item-box__item_a" onclick="monthNumberGame()" href="#">
+        <a class="games__item-box__item_a" href="#gameVremena">
             <span class="games__item-box__text">Игра 1</span>
         </a>
-        <a class="games__item-box__item_b" href="#">
+        <a class="games__item-box__item_b" href="#gameZapomni">
             <span class="games__item-box__text">Игра 2</span>
         </a>
         <a class="games__item-box__item_c" href="#">
             <span class="games__item-box__text">Игра 3</span>
         </a>
     </section>
-    <section class="vremenaGoda center">
+    <section class="vremenaGoda center" id="gameVremena">
         <div class="vremenaGoda__info">
             <h2 class="vremenaGoda__info__title">Времена года!</h2>
             <p class="vremenaGoda__info__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к
@@ -39,8 +39,17 @@
         </div>
         <div class="vremenaGoda__img"></div>
     </section>
+    <section class="zapomniSlova center" id="gameZapomni">
+        <div class="zapomniSlova__img"></div>
+        <div class="zapomniSlova__info">
+            <h2 class="vremenaGoda__info__title">Запомни слова</h2>
+            <p class="vremenaGoda__info__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+            <button class="vremenaGoda__info__button" onclick="zapomniSlovaGame()">Играть</button>
+        </div>
+
+    </section>
     <script src="./hw-game.js"></script>
-    <script src="./hw-6.js"></script>
+    <script src="./hw-7.js"></script>
 
 </body>
 
