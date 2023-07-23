@@ -70,8 +70,9 @@ console.log(date);
 //Задание 9
 
 let currentDate = new Date();
-let newDate = currentDate.getDate(currentDate.setDate(73));
-console.log(newDate);
+let futureDate = new Date();
+futureDate.setDate(currentDate.getDate() + 73);
+console.log(futureDate.toDateString()); 
 
 //Задание 10
 
