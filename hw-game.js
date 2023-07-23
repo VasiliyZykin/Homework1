@@ -28,3 +28,25 @@ function monthNumberGame() {
             break;
     }
 }
+
+function zapomniSlovaGame() {
+    let words = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    for (i of words) {
+        words = words.sort(() => Math.random() - 0.5);
+        alert(words);
+        let userAnswer = prompt('Чему равнялся первый элемент массива?');
+        let userAnswer2 = prompt('Чему равнялся последний элемент массива?');
+        if (userAnswer === words[0] && userAnswer2 === words[6]) {
+            alert('Поздравляю, вы прошли игру!');
+            break;
+        } else if (userAnswer === words[0] || userAnswer2 === words[6]) {
+            alert('Вы были близки к победе!');
+            break;
+        } else {
+            alert('Неправильно');
+            break;
+        }
+        break;
+    }
+
+}

@@ -217,4 +217,24 @@ body {
     }
 }
 
+.zapomniSlova {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    height: 800px;
+    background-color: #000915;
+
+    &__img {
+        background-image: url(./img/game_2_img.svg);
+            width: 481px;
+            height: 322px;
+    }
+
+    &__info {
+        width: 588px;
+        height: 235px;
+    }
+}
+
 @import'mobile';

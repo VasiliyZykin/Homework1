@@ -193,6 +193,24 @@ body {
   height: 333px;
 }
 
+.zapomniSlova {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  height: 800px;
+  background-color: #000915;
+}
+.zapomniSlova__img {
+  background-image: url(./img/game_2_img.svg);
+  width: 481px;
+  height: 322px;
+}
+.zapomniSlova__info {
+  width: 588px;
+  height: 235px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -280,5 +298,44 @@ body {
     height: 236px;
     width: 344px;
     background-image: url(./img/game_1_mobimg.svg);
+  }
+  .zapomniSlova {
+    gap: 64px;
+    height: 653px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .zapomniSlova__info {
+    width: 343px;
+    height: 217px;
+    grid-column: span 12;
+    display: grid;
+    justify-items: center;
+  }
+  .zapomniSlova__info__title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .zapomniSlova__info__text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .zapomniSlova__info__button {
+    width: 234px;
+    height: 48px;
+    text-align: center;
+  }
+  .zapomniSlova__img {
+    grid-column: span 12;
+    order: 1;
+    height: 236px;
+    width: 344px;
+    background-image: url(./img/game_2_mobimg.svg);
   }
 }/*# sourceMappingURL=style.css.map */
